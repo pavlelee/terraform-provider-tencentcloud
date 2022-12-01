@@ -98,7 +98,7 @@ resource "tencentcloud_kubernetes_cluster" "cluster_with_addon" {
 
 #examples for MANAGED_CLUSTER VPC-CNI network type cluster with customized master params
 resource "tencentcloud_kubernetes_cluster" "managed_vpc_cni_cluster" {
-  cluster_version         = "1.14.3"
+  cluster_version         = "1.22.5"
   vpc_id                  = var.vpc
   cluster_max_pod_num     = 32
   cluster_name            = "testvpccni"

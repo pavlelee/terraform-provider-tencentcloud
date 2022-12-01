@@ -906,8 +906,8 @@ func resourceTencentCloudTkeCluster() *schema.Resource {
 		"cluster_version": {
 			Type:        schema.TypeString,
 			Optional:    true,
-			Default:     "1.10.5",
-			Description: "Version of the cluster, Default is '1.10.5'.",
+			Default:     "1.22.5",
+			Description: "Version of the cluster, Default is '1.22.5'.",
 		},
 		"upgrade_instances_follow_cluster": {
 			Type:        schema.TypeBool,
