@@ -65,7 +65,7 @@ func resourceTencentCloudTkeClusterEndpoint() *schema.Resource {
 				Type:        schema.TypeBool,
 				Default:     false,
 				Optional:    true,
-				Description: "Open internet access or not.",
+				Description: "Open internet access or not, NOTE: cluster_internet_security_group must not be empty if cluster internet enabled.",
 			},
 			"cluster_intranet": {
 				Type:        schema.TypeBool,
